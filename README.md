@@ -1,8 +1,6 @@
 # OnlyGoogleApis
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/only_google_apis`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Accept only request from Google API server.
 
 ## Installation
 
@@ -22,7 +20,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add it for example as a constraint in your `routes.rb`
+
+```ruby
+    namespace :api do
+      constraints(OnlyGoogleApis) do
+        resources :maps, only: :create
+      end
+    end
+```
 
 ## Development
 
@@ -37,3 +43,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+
+## Thanks
+
+Thanks to Jesse Wolgamott for the [initial post on this subject](http://jessewolgamott.com/blog/2015/11/17/when-fake-googlebots-attack-your-rails-app/)
