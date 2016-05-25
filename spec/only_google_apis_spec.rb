@@ -30,7 +30,7 @@ describe OnlyGoogleApis do
     context 'invalid user_agent' do
       let(:user_agent) { 'Nice one' }
 
-      context 'invald resolv' do
+      context 'invalid resolv' do
         let(:ip) { '208.69.38.205' }
         it { is_expected.to be_falsey }
       end
