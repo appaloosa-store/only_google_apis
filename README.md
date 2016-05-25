@@ -1,6 +1,6 @@
 # OnlyGoogleApis
 
-[![Build Status](https://travis-ci.org/appaloosa-store/only_google_apis.svg)](https://travis-ci.org/appaloosa-store/only_google_apis.svg)
+[![Build Status](https://travis-ci.org/appaloosa-store/only_google_apis.svg)](https://travis-ci.org/appaloosa-store/only_google_apis)
 
 Accept only request from Google API server.
 
