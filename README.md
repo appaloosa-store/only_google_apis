@@ -22,14 +22,14 @@ Or install it yourself as:
 
 ## Usage
 
-Add it for example as a constraint in your `routes.rb`
+Add it for example as a constraint in your `routes.rb` in your Rails project.
 
 ```ruby
-    namespace :api do
-      constraints(OnlyGoogleApis) do
-        resources :maps, only: :create
-      end
-    end
+namespace :api do
+  constraints(OnlyGoogleApis) do
+    resources :maps, only: :create
+  end
+end
 ```
 
 ## Development
