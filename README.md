@@ -4,6 +4,8 @@
 
 Accept only request from Google API server.
 
+To get more info about why we make this gem. You can read our [blog post](https://medium.com/@appaloosastore/ding-dong-its-google-cloud-pub-sub-cd925e9ba27a#.5z8ae2841).
+
 ## Installation
 
 Add this line to your application's Gemfile:
