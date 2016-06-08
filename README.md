@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/appaloosa-store/only_google_apis.svg)](https://travis-ci.org/appaloosa-store/only_google_apis)
 
-Accept only request from Google API server.
+Accept only requests from Google APIs servers.
 
 To get more info about why we make this gem. You can read our [blog post](https://medium.com/@appaloosastore/ding-dong-its-google-cloud-pub-sub-cd925e9ba27a#.5z8ae2841).
 
