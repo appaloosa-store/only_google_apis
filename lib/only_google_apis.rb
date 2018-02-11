@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+require "resolv"
 require "only_google_apis/version"
 
 module OnlyGoogleApis
